@@ -18,7 +18,7 @@ class Solution
                     if($file != '.' && $file != '..') {
                         if (($subPath = $path . DIRECTORY_SEPARATOR . $file) && is_dir($subPath)) {
                             echo "<pre />";
-                            echo '<span style="color: red;">' . str_repeat("--", $level) . $subPath . '</span>';
+                            echo '<span style="color: red;font-weight:bold;">' . str_repeat("--", $level) . $subPath . '</span>';
                             self::allFile($subPath, $level++);
                         } else {
                             echo "<pre />";

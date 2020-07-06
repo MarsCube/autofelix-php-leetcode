@@ -5,7 +5,7 @@
  * Date: 2020/7/3
  * Time: 14:41
  * Email: jiangliang@tanwan.com
- * Desc: 返回数字插入有序数组的索引, .
+ * Desc: 返回数字插入有序数组的索引 .
  */
 
 class Solution {
