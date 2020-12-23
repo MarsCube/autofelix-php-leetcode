@@ -1,10 +1,10 @@
 <?php
 /**
  * Created by PhpStorm.
- * User: Jiangliang
+ * User: autofelix
  * Date: 2020/7/3
- * Time: 14:50
- * Email: jiangliang@tanwan.com
+ * Time: 11:08
+ * Email: jiangliangscau@163.com
  * Desc: 有一只兔子，从出生后第3个月起每个月都生一只兔子，小兔子长到第四个月后每个月又生一只兔子，假如兔子都不死，问每个月的兔子总数为多少？   .
  */
 

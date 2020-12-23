@@ -1,10 +1,10 @@
 <?php
 /**
  * Created by PhpStorm.
- * User: Jiangliang
- * Date: 2020/7/9
- * Time: 17:12
- * Email: jiangliang@tanwan.com
+ * User: autofelix
+ * Date: 2020/7/3
+ * Time: 11:08
+ * Email: jiangliangscau@163.com
  * Desc: 快乐数.
  * 每个位数拆开,无限平方和等于1就是快乐数
  * 例如： 19

@@ -1,10 +1,10 @@
 <?php
 /**
  * Created by PhpStorm.
- * User: Jiangliang
+ * User: autofelix
  * Date: 2020/7/3
- * Time: 14:44
- * Email: jiangliang@tanwan.com
+ * Time: 11:08
+ * Email: jiangliangscau@163.com
  * Desc: 向右移动指定单位后的数组.
  */
 

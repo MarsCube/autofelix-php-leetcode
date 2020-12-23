@@ -1,10 +1,10 @@
 <?php
 /**
  * Created by PhpStorm.
- * User: Jiangliang
+ * User: autofelix
  * Date: 2020/7/3
- * Time: 14:41
- * Email: jiangliang@tanwan.com
+ * Time: 11:08
+ * Email: jiangliangscau@163.com
  * Desc: 返回数字插入有序数组的索引 .
  */
 

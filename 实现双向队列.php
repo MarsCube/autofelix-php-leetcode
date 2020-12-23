@@ -1,10 +1,10 @@
 <?php
 /**
  * Created by PhpStorm.
- * User: Jiangliang
+ * User: autofelix
  * Date: 2020/7/3
- * Time: 11:43
- * Email: jiangliang@tanwan.com
+ * Time: 11:08
+ * Email: jiangliangscau@163.com
  * Desc: 实现双向队列.
  */
 class Solution

@@ -1,10 +1,10 @@
 <?php
 /**
  * Created by PhpStorm.
- * User: Jiangliang
+ * User: autofelix
  * Date: 2020/7/3
- * Time: 15:42
- * Email: jiangliang@tanwan.com
+ * Time: 11:08
+ * Email: jiangliangscau@163.com
  * Desc: 求s=a+aa+aaa+aaaa+aa...a的值，其中a是一个数字。例如2+22+222+2222+22222(此时共有5个数相加).
  */
 

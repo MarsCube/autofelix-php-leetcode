@@ -1,10 +1,10 @@
 <?php
 /**
  * Created by PhpStorm.
- * User: Jiangliang
+ * User: autofelix
  * Date: 2020/7/3
- * Time: 15:05
- * Email: jiangliang@tanwan.com
+ * Time: 11:08
+ * Email: jiangliangscau@163.com
  * Desc: 判断一个数是否是素数，一个数只能被1和本身整除，所以该数如果不能被2~这个数的平方根整除就是素数.
  */
 

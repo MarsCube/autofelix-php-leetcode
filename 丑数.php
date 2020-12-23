@@ -1,10 +1,10 @@
 <?php
 /**
  * Created by PhpStorm.
- * User: Jiangliang
- * Date: 2020/7/10
- * Time: 9:40
- * Email: jiangliang@tanwan.com
+ * User: autofelix
+ * Date: 2020/7/3
+ * Time: 11:08
+ * Email: jiangliangscau@163.com
  * Desc: 丑数，质因数2,3,5.
  */
 
