@@ -10,8 +10,7 @@
 
 class Solution
 {
-    public static function isPrime($num)
-    {
+    public static function isPrime($num) {
         $result = true;
         if ($num > 3) {
             for ($i = 2; $i <= sqrt($num); $i++) {

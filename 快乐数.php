@@ -20,8 +20,7 @@ class Solution
      * @param $num
      * @return bool
      */
-    public static function isHappyNum($num)
-    {
+    public static function isHappyNum($num) {
         static $arr = [];
         array_push($arr, $num);
 

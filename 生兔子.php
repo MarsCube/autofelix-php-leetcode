@@ -20,8 +20,7 @@
  */
 class Solution
 {
-    public static function rabbit($month)
-    {
+    public static function rabbit($month) {
         $result = [1, 1];
         if($month > 2) {
             for($i = 2; $i < $month; $i++) {

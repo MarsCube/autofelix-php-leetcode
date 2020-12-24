@@ -10,17 +10,10 @@
 
 class Solution
 {
-    public static function compute($n)
-    {
+    public static function compute($n) {
         $expression = 0;
-        for($i = 1; $i <= $n; $i++)
-        {
-            if($i % 2 == 0)
-            {
-                $expression -= $i;
-            } else {
-                $expression += $i;
-            }
+        for($i = 1; $i <= $n; $i++) {
+            $i % 2 == 0 ? $expression -= $i : $expression += $i;
         }
         return $expression;
     }

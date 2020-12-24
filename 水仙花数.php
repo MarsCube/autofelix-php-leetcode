@@ -10,11 +10,9 @@
 
 class Solution
 {
-    public static function daffodilNum()
-    {
+    public static function daffodilNum() {
         $result = [];
-        for ($i = 100; $i <= 999; $i++)
-        {
+        for ($i = 100; $i <= 999; $i++) {
             $i = (string)$i;
             if ( (pow($i[0], 3) + pow($i[1], 3) + pow($i[2], 3)) == $i ) {
                 $result[] = $i;

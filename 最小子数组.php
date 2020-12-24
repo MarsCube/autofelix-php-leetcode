@@ -11,12 +11,10 @@
 
 class Solution
 {
-    public static function minSubArrayLen($s, $nums)
-    {
+    public static function minSubArrayLen($s, $nums) {
         $count = count($nums);
         $result = 0;
-        for ($i = 1; $i <= $count; $i++)
-        {
+        for ($i = 1; $i <= $count; $i++) {
             foreach ($nums as $key => $num) {
                 if(( $count - $key ) >= $i) {
                     $chunk_arr = array_slice($nums, $key, $i);

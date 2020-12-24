@@ -10,8 +10,7 @@
 
 class Solution
 {
-    public static function add()
-    {
+    public static function add() {
         $a = 1;
         $b = &$a;
         echo (++$a) + (++$b);

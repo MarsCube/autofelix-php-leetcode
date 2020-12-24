@@ -10,8 +10,7 @@
 
 class Solution
 {
-    public static function exchange($a = 10, $b = 15)
-    {
+    public static function exchange($a = 10, $b = 15) {
         //方法一
         list($a1, $b1) = [$b, $a];
 

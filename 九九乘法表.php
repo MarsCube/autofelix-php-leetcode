@@ -10,12 +10,9 @@
 
 class Solution
 {
-    public static function create()
-    {
-        for ($i = 1; $i <= 9; $i++)
-        {
-            for ($j = 1; $j <= $i; $j++)
-            {
+    public static function create() {
+        for ($i = 1; $i <= 9; $i++) {
+            for ($j = 1; $j <= $i; $j++) {
                 echo $j . '*' . $i . '=' . $i * $j . PHP_EOL;
             }
             echo "<br />";

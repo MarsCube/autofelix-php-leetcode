@@ -15,12 +15,10 @@ class Solution
      * @param $num
      * @return bool
      */
-    public static function isPalindromicNum($num)
-    {
+    public static function isPalindromicNum($num) {
         $result = true;
         $num = (string)$num;
-        for ($i = 0; $i < (strlen($num)-1)/2; $i++)
-        {
+        for ($i = 0; $i < (strlen($num)-1)/2; $i++) {
             if($num[$i] != $num[strlen($num) - ($i+1)]) {
                 $result = false;
                 break;
@@ -34,8 +32,7 @@ class Solution
      * 找到所有5位数中的回文数
      * @return array
      */
-    public static function allPalindromicNum()
-    {
+    public static function allPalindromicNum() {
         $result = [];
         for ($i = 10000; $i <= 99999; $i++) {
             $i = (string)$i;

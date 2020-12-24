@@ -10,8 +10,7 @@
 
 class Solution
 {
-    public static function level($score)
-    {
+    public static function level($score) {
         if ($score < 0 || $score > 100) return false;
 
         return $score >= 90 ? 'A' : ( $score >= 60 ? 'B' : 'C' );

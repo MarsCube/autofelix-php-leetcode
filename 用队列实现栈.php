@@ -15,9 +15,7 @@ class MyStack
     /**
      * MyStack constructor.
      */
-    public function __construct()
-    {
-    }
+    public function __construct() {}
 
     public function push($x)
     {

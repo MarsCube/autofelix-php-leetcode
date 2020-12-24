@@ -10,8 +10,7 @@
 
 class Solution
 {
-    public static function containsNearbyDuplicate($nums, $k)
-    {
+    public static function containsNearbyDuplicate($nums, $k) {
         $result = false;
         foreach ($nums as $key => $item) {
             $tmp = $item;

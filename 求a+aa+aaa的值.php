@@ -10,20 +10,15 @@
 
 class Solution
 {
-    public static function sum($a, $n)
-    {
-
+    public static function sum($a, $n) {
         $sum = [
             'total' => 0,
             'expression' => ''
         ];
 
-        for ($i = 0; $i < $n; $i++)
-        {
+        for ($i = 0; $i < $n; $i++) {
             $sum['expression'] .= $sum['expression'] ?  PHP_EOL . '+' . PHP_EOL . str_repeat($a, $i + 1) : str_repeat($a, $i + 1);
-
-            for ($j = 0; $j <= $i; $j++)
-            {
+            for ($j = 0; $j <= $i; $j++) {
                 $sum['total'] += $a * pow(10, $j);
             }
         }

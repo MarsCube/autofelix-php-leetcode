@@ -10,11 +10,7 @@
 
 class Solution {
     public static function lengthOfLastWord($s) {
-        if ($s == '') {
-            return 0;
-        }
-
-        return strlen(substr( $s, strripos($s, ' ') + 1 ));
+        return $s == '' ? 0 : strlen(substr( $s, strripos($s, ' ') + 1 ));
     }
 }
 

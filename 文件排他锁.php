@@ -11,11 +11,9 @@
 
 class Solution
 {
-    public static function lockWrite($path, $content, $mode = "w+")
-    {
+    public static function lockWrite($path, $content, $mode = "w+") {
         $fp = fopen($path, $mode);
-        if(flock($fp, LOCK_EX))
-        {
+        if(flock($fp, LOCK_EX)) {
             fwrite($fp, $content);
             flock($fp, LOCK_UN);
         } else {

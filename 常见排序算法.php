@@ -15,15 +15,11 @@ class Solution
      * @param $arr
      * @return mixed
      */
-    public static function bubbleSort($arr)
-    {
+    public static function bubbleSort($arr) {
         $len = count($arr);
-        for($i=1; $i<$len; $i++)
-        {
-            for($k=0; $k<$len-$i; $k++)
-            {
-                if($arr[$k] > $arr[$k+1])
-                {
+        for($i=1; $i<$len; $i++) {
+            for($k=0; $k<$len-$i; $k++) {
+                if($arr[$k] > $arr[$k+1]) {
                     $tmp=$arr[$k+1];
                     $arr[$k+1]=$arr[$k];
                     $arr[$k]=$tmp;
@@ -38,21 +34,17 @@ class Solution
      * @param $arr
      * @return mixed
      */
-    public static function electSort($arr)
-    {
+    public static function electSort($arr) {
         $len=count($arr);
-        for($i=0; $i<$len-1; $i++)
-        {
+        for($i=0; $i<$len-1; $i++) {
             $p = $i;
-            for($j=$i+1; $j<$len; $j++)
-            {
+            for($j=$i+1; $j<$len; $j++) {
                 if($arr[$p] > $arr[$j])
                 {
                     $p = $j;
                 }
             }
-            if($p != $i)
-            {
+            if($p != $i) {
                 $tmp = $arr[$p];
                 $arr[$p] = $arr[$i];
                 $arr[$i] = $tmp;
@@ -66,16 +58,12 @@ class Solution
      * @param $arr
      * @return mixed
      */
-    public static function insertSort($arr)
-    {
+    public static function insertSort($arr) {
         $len=count($arr);
-        for($i=1; $i<$len; $i++)
-        {
+        for($i=1; $i<$len; $i++) {
             $tmp = $arr[$i];
-            for($j=$i-1;$j>=0;$j--)
-            {
-                if($tmp < $arr[$j])
-                {
+            for($j=$i-1;$j>=0;$j--) {
+                if($tmp < $arr[$j]) {
                     $arr[$j+1] = $arr[$j];
                     $arr[$j] = $tmp;
                 } else {
@@ -95,18 +83,15 @@ class Solution
     public static function quickSort($arr) {
         $len = count($arr);
 
-        if($len <= 1)
-        {
+        if($len <= 1) {
             return $arr;
         }
 
         $base_num = $arr[0];
         $left_array = [];
         $right_array = [];
-        for($i=1; $i<$len; $i++)
-        {
-            if($base_num > $arr[$i])
-            {
+        for($i=1; $i<$len; $i++) {
+            if($base_num > $arr[$i]) {
                 $left_array[] = $arr[$i];
             } else {
                 $right_array[] = $arr[$i];

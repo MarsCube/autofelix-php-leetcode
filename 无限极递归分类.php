@@ -10,13 +10,10 @@
 
 class Solution
 {
-    public static function tree ($arr, $pid=0, $level=0)
-    {
+    public static function tree ($arr, $pid=0, $level=0) {
         static $list = [];
-        foreach ($arr as $v)
-        {
-            if ($v['pid'] == $pid)
-            {
+        foreach ($arr as $v) {
+            if ($v['pid'] == $pid) {
                 $v['level'] = $level;
                 $list[] = $v;
                 self::tree($arr,$v['id'],$level+1);

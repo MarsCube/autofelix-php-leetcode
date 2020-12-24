@@ -10,11 +10,8 @@
 
 class Solution
 {
-    public static function fibonacci($n)
-    {
-        if($n = 1) {
-            return 1;
-        } elseif($n = 1) {
+    public static function fibonacci($n) {
+        if($n <= 2) {
             return 1;
         } else {
             return self::fibonacci($n-1) + self::fibonacci($n-2);

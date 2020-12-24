@@ -10,8 +10,7 @@
 
 class Solution
 {
-    public static function getUrlFileBaseName($url)
-    {
+    public static function getUrlFileBaseName($url) {
         $urlArr = parse_url($url);
         $file = explode('.', basename($urlArr['path']));
         return $file[0];

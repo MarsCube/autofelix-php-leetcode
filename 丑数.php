@@ -14,8 +14,7 @@ class Solution
      * @param $num
      * @return bool
      */
-    public static function isUgly($num)
-    {
+    public static function isUgly($num) {
         if($num < 1) return false;
 
         while ($num % 5 == 0) $num /= 5;

@@ -12,9 +12,7 @@ class WordDictionary
 {
     private $dict = [];
 
-    public function __construct()
-    {
-    }
+    public function __construct() {}
 
     public function addWord($word)
     {

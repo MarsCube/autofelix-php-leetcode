@@ -10,18 +10,15 @@
 
 class Solution
 {
-    public static function summaryRanges($nums)
-    {
+    public static function summaryRanges($nums) {
         $count = count($nums);
         if ($count <= 1) return $nums;
 
         $result = [];
         $series = [];
-        for ($i = 0; $i < $count; $i++)
-        {
+        for ($i = 0; $i < $count; $i++) {
             if ($i > 0) {
-                if ($nums[$i] - 1 == $nums[$i-1])
-                {
+                if ($nums[$i] - 1 == $nums[$i-1]) {
                     if ($series) {
                         $series = [
                             $series[0],

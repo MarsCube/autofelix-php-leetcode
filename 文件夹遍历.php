@@ -10,8 +10,7 @@
 
 class Solution
 {
-    public static function allFile($path = __DIR__, $level = 1)
-    {
+    public static function allFile($path = __DIR__, $level = 1) {
         if (is_dir($path) && is_readable($path)) {
             if($pd = opendir($path)) {
                 while (($file = readdir($pd)) !== false) {

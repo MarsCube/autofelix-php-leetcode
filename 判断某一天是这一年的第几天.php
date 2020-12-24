@@ -10,13 +10,11 @@
 
 class Solution
 {
-    public function verdictDays($date)
-    {
+    public function verdictDays($date) {
         $date = $this->parse($date);
         $dateArr = explode('-', $date);
         $days = (int)$dateArr[1];
-        for($i = 1; $i <= (int)$dateArr[0]; $i++)
-        {
+        for($i = 1; $i <= (int)$dateArr[0]; $i++) {
             $days += cal_days_in_month(CAL_GREGORIAN, $i, date('Y'));
         }
         return $days;

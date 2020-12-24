@@ -10,8 +10,7 @@
 
 class Solution
 {
-    public static function parse()
-    {
+    public static function parse() {
         echo json_encode([
             '上月第一天' => date("Y-m-01", strtotime('-1 month')),
             '上月最后一天' => date("Y-m-t", strtotime('-1 month')),

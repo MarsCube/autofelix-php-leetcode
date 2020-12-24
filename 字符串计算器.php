@@ -9,8 +9,7 @@
  */
 class Solution
 {
-    public static function calculate($s)
-    {
+    public static function calculate($s) {
         //方法一
         //echo exec('php -r "echo '.$s.';"');
 

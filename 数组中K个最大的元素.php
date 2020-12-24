@@ -9,13 +9,10 @@
  */
 class Solution
 {
-    public static function findKthLargest($nums, $k)
-    {
+    public static function findKthLargest($nums, $k) {
         $count = count($nums);
-        for($i = 1; $i < $count; $i++)
-        {
-            for($j = 0; $j < $count - $i; $j++)
-            {
+        for($i = 1; $i < $count; $i++) {
+            for($j = 0; $j < $count - $i; $j++) {
                 if ($nums[$j] > $nums[$j+1]) {
                     $tmp = $nums[$j+1];
                     $nums[$j+1] = $nums[$j];

@@ -10,19 +10,15 @@
 
 class Solution
 {
-    public static function binSearch($x, $a)
-    {
+    public static function binSearch($x, $a) {
         $c = count($a);
         $lower = 0;
         $high = $c-1;
-        while ( $lower <= $high )
-        {
+        while ( $lower <= $high ) {
             $middle = intval(($lower + $high) / 2 );
-            if ( $a[$middle] >= $x )
-            {
+            if ( $a[$middle] >= $x ) {
                 $high = $middle - 1;
-            } elseif ( $a[$middle] <= $x )
-            {
+            } elseif ( $a[$middle] <= $x ) {
                 $lower = $middle + 1;
             }
         }

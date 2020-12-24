@@ -12,8 +12,7 @@
 
 class Solution
 {
-    public static function monkeyKing($n, $m)
-    {
+    public static function monkeyKing($n, $m) {
         $monkeys = range(1, $n);
         $i = 0;
         while ( count($monkeys) > 1 ) {
